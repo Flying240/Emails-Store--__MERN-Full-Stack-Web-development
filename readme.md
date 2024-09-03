@@ -1,6 +1,5 @@
 # EmailsStore:-
-    A full satck MERN application where a user can store Multiple Users their name, email and age.
-    he can add Create, Update, Delete User and Show all users. 
+### A full satck MERN application where a user can store Multiple Users their name, email and age. User can add Create, Update, Delete User and Show all users. 
 
     First Type your mongo URL here in /backend .env file  URI
     (refer to this to get one:- https://www.youtube.com/watch?v=jZ5MbbXbs7A)
