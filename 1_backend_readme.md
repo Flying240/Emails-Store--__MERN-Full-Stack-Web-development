@@ -1,5 +1,5 @@
 # first i created backend folder
-    1)i ran ' npm init ' command in terminal
+###    1)i ran ' npm init ' command in terminal
 
         why?
         npm init sets up a structured environment for your Node.js project, making it easier to manage and collaborate on
@@ -13,7 +13,9 @@
 
         4)Version Control: It helps in versioning your project by keeping track of the project’s version and dependencies' versions, which is crucial for maintaining and updating your project.
 
-    2)from 1.2 i will install 
+###    2)from 1.2 i will install 
+                                npm install express dotenv cors
+                                npm install --save-dev nodemon
 
         The first command installs essential packages (express, dotenv, cors) for building and configuring your Node.js application.
         
@@ -32,7 +34,7 @@
             nodemon: A development tool that automatically restarts your Node.js server when file changes are detected, improving development efficiency. The --save-dev flag installs it as a development dependency, meaning it's only needed during development and not in production.
 
 
-    3)we create 1_server.js
+###    3)we create 1_server.js
 
          in /backend package-json file in "scripts" 
          
@@ -46,10 +48,9 @@
 
             "dev": "nodemon 1_server.js": This command starts your server in development mode using nodemon. nodemon will automatically restart the server whenever you make changes to the code, making it convenient for development. You can run this with ` npm run dev `.
 
-            "test": "echo \"Error: no test specified\" && exit 1": This is a placeholder script that outputs an error message when you run npm test, indicating that no tests have been defined yet. You can replace this with actual test scripts once you have tests in place
- :    
+            "test": "echo \"Error: no test specified\" && exit 1": This is a placeholder script that outputs an error message when you run npm test, indicating that no tests have been defined yet. You can replace this with actual test scripts once you have tests in place:    
 
-    4)we have to install mongo db and link it to backend
+###    4)we have to install mongo db and link it to backend
 
         1)npm install mongoose
 
@@ -57,7 +58,7 @@
 
         mongoose.connect("mongodb+srv://YourUserName:YourPassword.mongodb.net/1_EmailsStore")
     
-    5)as port no and monog url is open for public for security reasons it is not good
+###    5)as port no and monog url is open for public for security reasons it is not good
 
         1)so create ` .env ` file
             there i will use PORT for port no,  URI for mongo url
