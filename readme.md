@@ -6,8 +6,10 @@
     mongodb+srv://YourUSERNAME:YourPassword.mongodb.net/1_EmailsStore
 
 ## to start open two terminals to the described directory and run commands 
-    /frontend/react :- command:- npm run dev
-    /backend        :- command:- npm run dev                       
+    /backend        :- command:- npm run dev 
+    /frontend/react :- command:- npm install vite --save-dev
+                                 npm run dev
+
 
 i have refered this video for doing this project:- https://www.youtube.com/watch?v=hmwFN5YzY1s&t=4955s
 
