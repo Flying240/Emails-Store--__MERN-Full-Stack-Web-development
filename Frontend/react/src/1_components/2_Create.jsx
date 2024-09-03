@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import { useNavigate } from "react-router-dom";
-import axios from 'axios';
 
 /*
 	Created 4 states naem, email, age and error(show to user).
