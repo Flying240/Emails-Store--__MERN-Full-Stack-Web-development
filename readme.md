@@ -21,3 +21,5 @@ i have refered this video for doing this project:- https://www.youtube.com/watch
 article link:- https://whataboutcoding.com/build-a-simple-mern-stack-application/
 
 it took around 2-3 weeks to do it(aug 2024 - sep 2024)
+
+# Please Hit Star Button of this Repsoitry if you like it
