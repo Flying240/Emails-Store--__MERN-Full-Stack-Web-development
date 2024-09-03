@@ -2,8 +2,8 @@
     1)i ran 'npm create vite@latest' command in terminal
 
 
-# i created a folder components in /src
-## cretaed a  1_navbar.jsx  file
+## i created a folder components in /src
+### cretaed a  1_navbar.jsx  file
     1)created a navbar component
         using ( https://getbootstrap.com/docs/5.0/components/navbar/#nav )
 
@@ -19,7 +19,7 @@
 
     3)from Navbar we are setting link in URL and from URL BrowserRouter routes routes to the spefic component
 
-## created a 2_create.jsx file
+### created a 2_create.jsx file
     created a Create component
         using ( https://getbootstrap.com/docs/5.0/forms/overview/ )
 
@@ -45,7 +45,7 @@
     const cors = require('cors');
     app.use(cors()); // Enable CORS for all routes
 
-## created a 3_read.jsx file
+### created a 3_read.jsx file
 created a Card component
         using ( https://getbootstrap.com/docs/4.0/components/card/#titles-text-and-links )
 
