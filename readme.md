@@ -7,10 +7,13 @@
 
 ## To Start/Run open two different terminals to the below described directory and run commands 
 ### 1) /backend:-   
+    npm install
     npm run dev 
     
 ### 2) /frontend/react:-
     npm install vite --save-dev
+    npm install
+    npm install axios
     npm run dev
     
 ### if some error occurs while running these commands just do CHATGPT to resolve these commands
