@@ -11,7 +11,6 @@
     npm run dev 
     
 ### 2) /frontend/react:-
-    npm install vite --save-dev
     npm install
     npm install axios
     npm run dev
