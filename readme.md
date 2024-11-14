@@ -3,7 +3,8 @@
 
     First Type your mongo URL here in /backend .env file  URI
     (refer to this to get one:- https://www.youtube.com/watch?v=jZ5MbbXbs7A)
-    mongodb+srv://YourUSERNAME:YourPassword.mongodb.net/1_EmailsStore
+    and replace URI (mongodb+srv://YourUSERNAME:YourPassword.mongodb.net/1_EmailsStore) 
+    with your URL
 
 ## To Start/Run open two different terminals to the below described directory and run commands 
 ### 1) /backend:-   
